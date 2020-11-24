@@ -1,0 +1,4 @@
+MultiRegionRadiationFoam.C
+
+EXE = $(FOAM_APPBIN)/MultiRegionRadiationFoamOMPs
+
