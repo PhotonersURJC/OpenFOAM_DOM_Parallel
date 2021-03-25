@@ -1,0 +1,47 @@
+/* Extintion model */
+submodels/extintionModel/radExtintionModel/radExtintionModel.C
+submodels/extintionModel/radExtintionModel/radExtintionModelNew.C
+submodels/extintionModel/constantExtintion/cromConstExt.C
+submodels/extintionModel/constantExtintion/greyConstExt.C
+
+
+
+/* Radiation model */
+radiationModel/radiationModel/newRadiationModel.C
+radiationModel/radiationModel/newRadiationModelNew.C
+
+radiationModel/DORT/DORT/DORT.C
+radiationModel/DORT/quadrature/quadrature.C
+radiationModel/DORT/discreteOrdinate/discreteOrdinate.C
+radiationModel/DORT/discreteOrdinate/cleanDO/cleanDO.C
+radiationModel/DORT/discreteOrdinate/absorptionDO/absorptionDO.C
+radiationModel/DORT/discreteOrdinate/thermoAbsorptionDO/thermoAbsorptionDO.C
+radiationModel/DORT/discreteOrdinate/homoExtDO/homoExtDO.C
+radiationModel/DORT/discreteOrdinate/heteroExtDO/heteroExtDO.C
+radiationModel/DORT/discreteOrdinate/fullDO/fullDO.C
+radiationModel/DORT/specularGuide/specularGuide.C
+radiationModel/DORT/specularIndexer/specularIndexer.C
+radiationModel/DORT/Source/radSource.C
+radiationModel/DORT/Source/radSourceNew.C
+radiationModel/DORT/Source/isotropicRadSource.C
+radiationModel/DORT/Source/constConeRadSource.C
+radiationModel/DORT/Source/parallelRadSource.C
+radiationModel/DORT/Source/booleanSourceStorage.C
+
+
+
+/* Phase Func Model */
+submodels/phaseFuncModel/phaseFuncModel/phaseFuncModel.C
+submodels/phaseFuncModel/phaseFuncModel/phaseFuncModelNew.C
+submodels/phaseFuncModel/isotropicPhaseFunc/isotropicPhaseFunc.C
+submodels/phaseFuncModel/HenyeyGreenteinsPhaseFunc/HenyeyGreenteinsPhaseFunc.C
+submodels/phaseFuncModel/sctrMatrix/sctrMatrix.C
+submodels/phaseFuncModel/bandPhaseFunc/bandPhaseFunc.C
+submodels/phaseFuncModel/coeffPhaseFunc/coeffPhaseFunc.C
+
+
+
+/* Boundaries */
+derivedFvPatchFields/sourceGreyRadiation/AsourceGreyRadiationMixedFvPatchScalarField.C
+
+LIB = $(FOAM_LIBBIN)/libnewRadiationModelsA
